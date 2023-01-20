@@ -1,3 +1,5 @@
+import { Logo } from './components/Logo';
+
 export const App = () => {
   return (
     <div
@@ -10,7 +12,7 @@ export const App = () => {
         color: '#010101',
       }}
     >
-      React homework template
+      <Logo />
     </div>
   );
 };
