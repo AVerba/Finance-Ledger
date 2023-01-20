@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/Finance-Ledger/static/css/main.7acaea2f.css",
-    "main.js": "/Finance-Ledger/static/js/main.07d3183d.js",
+    "main.css": "/Finance-Ledger/static/css/main.fef3e931.css",
+    "main.js": "/Finance-Ledger/static/js/main.c7f89cd4.js",
+    "static/media/icons.svg": "/Finance-Ledger/static/media/icons.fcf9b1b551ccf9c259dc398558dc2948.svg",
     "index.html": "/Finance-Ledger/index.html",
-    "main.7acaea2f.css.map": "/Finance-Ledger/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/Finance-Ledger/static/js/main.07d3183d.js.map"
+    "main.fef3e931.css.map": "/Finance-Ledger/static/css/main.fef3e931.css.map",
+    "main.c7f89cd4.js.map": "/Finance-Ledger/static/js/main.c7f89cd4.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/css/main.fef3e931.css",
+    "static/js/main.c7f89cd4.js"
   ]
 }
