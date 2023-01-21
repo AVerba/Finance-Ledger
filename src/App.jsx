@@ -14,7 +14,6 @@ export const App = () => {
       }}
     >
       <Navigation />
-      {/*<Logo />*/}
     </div>
   );
 };
