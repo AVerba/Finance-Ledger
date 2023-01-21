@@ -1,4 +1,5 @@
 import { Logo } from './components/Logo';
+import { Navigation } from './components/Navigation/Navigation';
 
 export const App = () => {
   return (
@@ -12,7 +13,8 @@ export const App = () => {
         color: '#010101',
       }}
     >
-      <Logo />
+      <Navigation />
+      {/*<Logo />*/}
     </div>
   );
 };
