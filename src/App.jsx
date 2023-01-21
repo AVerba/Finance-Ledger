@@ -1,4 +1,3 @@
-import { Logo } from './components/Logo';
 import { Navigation } from './components/Navigation/Navigation';
 
 export const App = () => {
