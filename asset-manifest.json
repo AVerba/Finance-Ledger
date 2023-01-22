@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.css": "/Finance-Ledger/static/css/main.ce60ea48.css",
-    "main.js": "/Finance-Ledger/static/js/main.3ae076f6.js",
+    "main.css": "/Finance-Ledger/static/css/main.eec4e8a2.css",
+    "main.js": "/Finance-Ledger/static/js/main.ae4a9cf5.js",
+    "static/media/bg@2x.jpg": "/Finance-Ledger/static/media/bg@2x.040262d83a9e59a85798.jpg",
+    "static/media/bg.jpg": "/Finance-Ledger/static/media/bg.a1b0458355456b01b782.jpg",
     "static/media/icons.svg": "/Finance-Ledger/static/media/icons.fcf9b1b551ccf9c259dc398558dc2948.svg",
     "index.html": "/Finance-Ledger/index.html",
-    "main.ce60ea48.css.map": "/Finance-Ledger/static/css/main.ce60ea48.css.map",
-    "main.3ae076f6.js.map": "/Finance-Ledger/static/js/main.3ae076f6.js.map"
+    "main.eec4e8a2.css.map": "/Finance-Ledger/static/css/main.eec4e8a2.css.map",
+    "main.ae4a9cf5.js.map": "/Finance-Ledger/static/js/main.ae4a9cf5.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce60ea48.css",
-    "static/js/main.3ae076f6.js"
+    "static/css/main.eec4e8a2.css",
+    "static/js/main.ae4a9cf5.js"
   ]
 }
