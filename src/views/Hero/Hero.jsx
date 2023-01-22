@@ -3,12 +3,8 @@ import icon from 'images/icons.svg';
 import { Container } from '../../components/Container';
 import { SubTitle } from '../../components/UI/SubTitle';
 import { CommonButton } from '../../components/UI/Button';
-import { isMobile, isTablet } from '../../utils/mediaQuery';
-import { useMediaQuery } from 'react-responsive';
 
 export const Hero = () => {
-  const Mobile = isMobile(useMediaQuery);
-  const Tablet = isTablet(useMediaQuery);
   return (
     <section className={styles.hero}>
       <Container className={styles.hero__container}>
