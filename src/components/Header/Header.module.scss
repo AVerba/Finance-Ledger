@@ -1,0 +1,13 @@
+.headerMobile {
+  display: block;
+}
+
+.headerTablet {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerDesktop {
+  composes: headerTablet;
+}
