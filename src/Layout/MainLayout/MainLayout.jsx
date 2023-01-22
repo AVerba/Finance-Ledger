@@ -6,7 +6,7 @@ import { Cases } from '../../views/Cases';
 import { Blog } from '../../views/Blog';
 import { Team } from '../../views/Team/Team';
 import { Contact } from '../../views/Contact';
-import { Footer } from '../../views/Footer/Footer';
+import { Footer } from '../../components/Footer/Footer';
 
 export const MainLayout = () => {
   return (

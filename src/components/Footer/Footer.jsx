@@ -8,7 +8,7 @@ export const Footer = () => {
         <li className={styles.social__item}>
           <a
             className={styles.social__link}
-            href="https://www.facebook.com/"
+            href="components/Footer/Footer"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -20,7 +20,7 @@ export const Footer = () => {
         <li className={styles.social__item}>
           <a
             className={styles.social__link}
-            href="https://twitter.com/"
+            href="components/Footer/Footer"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -32,7 +32,7 @@ export const Footer = () => {
         <li className={styles.social__item}>
           <a
             className={styles.social__link}
-            href="https://www.youtube.com/"
+            href="components/Footer/Footer"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -44,7 +44,7 @@ export const Footer = () => {
         <li className={styles.social__item}>
           <a
             className={styles.social__link}
-            href="https://www.linkedin.com/"
+            href="components/Footer/Footer"
             target="_blank"
             rel="noopener noreferrer"
           >
