@@ -8,7 +8,7 @@ export const Hero = () => {
   return (
     <section className={styles.hero}>
       <Container className={styles.hero__container}>
-        <h1 className={styles.mainTitle}>The Sky Is The Limit</h1>
+        <h1 className={styles.hero__mainTitle}>The Sky Is The Limit</h1>
         <SubTitle className={styles.hero__subTitle}>
           We provide world class financial assistance
         </SubTitle>
