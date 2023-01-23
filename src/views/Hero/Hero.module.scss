@@ -30,7 +30,6 @@
   &__container {
     display: flex;
     flex-direction: column;
-    width: 100%;
     align-items: center;
     justify-content: center;
   }
@@ -43,6 +42,7 @@
     line-height: calc(54 / 40);
     text-align: center;
     color: #FFFFFF;
+    padding: 0 25px;
     @include for-size(tablet) {
       font-size: 55px;
       line-height: calc(75 / 55);
@@ -59,6 +59,7 @@
     line-height: calc(32 / 26);
     color: #FFFFFF;
     @include for-size(tablet) {
+      padding: 0 98px;
       font-size: 40px;
       line-height: calc(48 / 40);
 
