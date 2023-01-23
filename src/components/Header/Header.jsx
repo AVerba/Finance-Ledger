@@ -6,11 +6,11 @@ import { Container } from '../Container';
 
 export const Header = () => {
   return (
-    <Container className={styles.containerHeader}>
-      <header className={styles.header}>
+    <header className={styles.header}>
+      <Container className={styles.header__container}>
         <Logo />
         <Navigation />
-      </header>
-    </Container>
+      </Container>
+    </header>
   );
 };

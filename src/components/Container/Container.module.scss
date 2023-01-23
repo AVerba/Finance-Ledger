@@ -1,25 +1,21 @@
-.containerMobile {
-  max-width: 320px;
-  margin-left: auto;
-  margin-right: auto;
+@import '../../sass/main.scss';
+.container {
+  width: 320px;
   padding-left: 24px;
   padding-right: 24px;
-}
-
-.containerTablet {
-  max-width: 768px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 32px;
-  padding-right: 32px;
 
+  @include for-size(tablet) {
+    width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  @include for-size(desktop) {
+    width: 1360px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
 }
 
-.containerDesktop {
-  max-width: 1360px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 28px;
-  padding-right: 28px;
-
-}
