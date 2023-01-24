@@ -1,16 +1,23 @@
 @import '../../sass/main.scss';
-.header{
+
+.header {
   position: fixed;
   width: 100%;
   top: 0;
   left: 0;
   z-index: 1;
-  &__container{
+
+  &__container {
     display: block;
+    padding: 0 22px;
     @include for-size(tablet) {
+      padding: 0 32px;
       display: flex;
       align-items: center;
       justify-content: space-between;
+    }
+    @include for-size(desktop) {
+      padding: 0 28px;
     }
   }
 }

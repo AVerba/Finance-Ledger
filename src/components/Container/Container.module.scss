@@ -2,20 +2,15 @@
 
 .container {
   width: 320px;
-
   margin-left: auto;
   margin-right: auto;
 
   @include for-size(tablet) {
     width: 768px;
-    padding-left: 32px;
-    padding-right: 32px;
   }
 
   @include for-size(desktop) {
     width: 1360px;
-    padding-left: 32px;
-    padding-right: 32px;
   }
 }
 
