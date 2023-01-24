@@ -6,22 +6,22 @@ import { CommonButton } from '../../components/UI/Button';
 
 export const Blog = () => {
   return (
-    <section className={styles.about}>
-      <Container className={styles.about__container}>
-        <div className={styles.about__content}>
-          <p>What you are looking for </p>
-          <SubTitle className={styles.about__subTitle}>
-            We provide bespoke solutions
-          </SubTitle>
-          <p className={styles.about__text}>
+    <section className={styles.blog}>
+      <Container className={styles.blog__container}>
+        <div className={styles.blog__content}>
+          <p>April 16 2020</p>
+          <SubTitle className={styles.blog__subTitle}>Blog Post One</SubTitle>
+          <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate,
             ipsum dignissimos quae laudantium asperiores nam aliquid impedit
             harum illum dolore explicabo ab dolores itaque rerum temporibus
-            doloribus iste maiores deleniti?{' '}
+            doloribus iste maiores deleniti?
           </p>
-          <CommonButton className={styles.about__btn}>Read More</CommonButton>
+          <CommonButton className={styles.blog__btn}>
+            Read Our Blog
+          </CommonButton>
         </div>
-        <div className={styles.about__img}>
+        <div className={styles.blog__img}>
           <picture>
             <source
               type="image/webp"

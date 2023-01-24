@@ -6,43 +6,24 @@
   font-weight: 400;
 
   &__container {
-
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
     @include for-size(tablet) {
-      display: flex;
-    }
-    @include for-size(desktop) {
-      display: flex;
-
-    }
-  }
-
-  &__img {
-    width: 100%;
-    padding: 160px 0;
-
-    @include for-size(tablet) {
-      padding: 0;
-      width: 50%;
-    }
-    @include for-size(desktop) {
+      grid-template-columns: repeat(2, 1fr);
     }
   }
 
   &__content {
     display: flex;
-
     flex-direction: column;
     align-items: flex-start;
     background-color: #28A745;
     padding: 79px 20px;
     @include for-size(tablet) {
-      width: 50%;
-
       padding: 62px 32px;
     }
 
     & > p {
-
       font-size: 16px;
       line-height: calc(22 / 16);
       color: #FFFFFF;
@@ -99,3 +80,4 @@
     }
   }
 }
+

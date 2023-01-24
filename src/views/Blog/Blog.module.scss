@@ -1,28 +1,15 @@
 @import '../../sass/main.scss';
 
-.about {
+.blog {
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
 
   &__container {
-
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
     @include for-size(tablet) {
-      display: flex;
-    }
-  }
-
-  &__img {
-    width: 100%;
-    padding: 160px 0;
-
-    @include for-size(tablet) {
-      padding: 0;
-      width: 50%;
-
-    }
-    @include for-size(desktop) {
-
+      grid-template-columns: repeat(2, 1fr);
     }
   }
 
@@ -33,12 +20,10 @@
     background-color: #0284D0;
     padding: 79px 20px;
     @include for-size(tablet) {
-      width: 50%;
       padding: 62px 32px;
     }
 
     & > p {
-
       font-size: 16px;
       line-height: calc(22 / 16);
       color: #FFFFFF;
@@ -79,8 +64,8 @@
     color: #ffffff;
     border: 1px solid #ffffff;
     border-radius: 5px;
+    background: transparent;
     cursor: pointer;
-    background-color: transparent;
     margin-top: 24px;
 
     transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -89,9 +74,9 @@
 
     &:hover,
     &:focus {
-      border: 1px solid #28a745;
+      border: 1px solid #0284d0;
       background: #f4f4f4;
-      color: #28a745;
+      color: #0284d0;
     }
   }
 }
