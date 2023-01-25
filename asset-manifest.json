@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Finance-Ledger/static/css/main.788316f3.css",
-    "main.js": "/Finance-Ledger/static/js/main.1ceea861.js",
+    "main.css": "/Finance-Ledger/static/css/main.426ed082.css",
+    "main.js": "/Finance-Ledger/static/js/main.daf683e9.js",
     "static/media/bg@2x.jpg": "/Finance-Ledger/static/media/bg@2x.040262d83a9e59a85798.jpg",
     "static/media/bg.jpg": "/Finance-Ledger/static/media/bg.a1b0458355456b01b782.jpg",
     "static/media/people@2x.jpg": "/Finance-Ledger/static/media/people@2x.27604f976a268738cf61.jpg",
@@ -16,13 +16,13 @@
     "static/media/people.webp": "/Finance-Ledger/static/media/people.860723e3815a5dc31e59.webp",
     "static/media/contact@2x.webp": "/Finance-Ledger/static/media/contact@2x.2bfcdd81a6a1abddc7f6.webp",
     "static/media/contact.webp": "/Finance-Ledger/static/media/contact.0de7b1d25677ccae54ab.webp",
-    "static/media/icons.svg": "/Finance-Ledger/static/media/icons.fcf9b1b551ccf9c259dc398558dc2948.svg",
+    "static/media/icons.svg": "/Finance-Ledger/static/media/icons.dd595e64c4d4ee6dbd2a704684e7b5ba.svg",
     "index.html": "/Finance-Ledger/index.html",
-    "main.788316f3.css.map": "/Finance-Ledger/static/css/main.788316f3.css.map",
-    "main.1ceea861.js.map": "/Finance-Ledger/static/js/main.1ceea861.js.map"
+    "main.426ed082.css.map": "/Finance-Ledger/static/css/main.426ed082.css.map",
+    "main.daf683e9.js.map": "/Finance-Ledger/static/js/main.daf683e9.js.map"
   },
   "entrypoints": [
-    "static/css/main.788316f3.css",
-    "static/js/main.1ceea861.js"
+    "static/css/main.426ed082.css",
+    "static/js/main.daf683e9.js"
   ]
 }
