@@ -6,6 +6,7 @@
   font-weight: 400;
 
   &__container {
+    background-color: #FFFFFF;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     @include for-size(tablet) {

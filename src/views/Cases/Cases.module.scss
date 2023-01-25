@@ -1,0 +1,63 @@
+@import '../../sass/main.scss';
+
+.cases {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #333333;
+
+
+  &__container {
+
+    text-align: center;
+    padding: 56px 20px 40px 20px;
+    background-color: #FFFFFF;
+    @include for-size(tablet) {
+      padding: 48px 32px 40px 32px;
+    }
+  }
+
+  &__preTitle {
+    font-size: 16px;
+    line-height: calc(22 / 16);
+    @include for-size(tablet) {
+      font-size: 18px;
+      line-height: calc(25 / 18);
+    }
+    @include for-size(desktop) {
+      font-size: 18px;
+      line-height: calc(33 / 18);
+    }
+  }
+
+  &__title {
+    font-size: 32px;
+    line-height: calc(44 / 32);
+    padding-top: 16px;
+    padding-left: 33px;
+    padding-right: 33px;
+    @include for-size(tablet) {
+      font-size: 40px;
+      line-height: calc(54 / 40);
+    }
+    @include for-size(desktop) {
+      font-size: 40px;
+      line-height: calc(48 / 40);
+    }
+  }
+
+  &__text {
+    font-size: 16px;
+    line-height: calc(22 / 16);
+    padding: 24px 39px 0 39px;
+    @include for-size(tablet) {
+      font-size: 18px;
+      line-height: calc(25 / 18);
+    }
+  }
+
+  &__list {
+    display: grid;
+  }
+
+}

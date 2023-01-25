@@ -50,7 +50,12 @@ export const Blog = () => {
               media="(max-width: 767px)"
               srcSet={`${images.mobJpeg} 1x, ${images.mobJpeg2x} 2x`}
             />
-            <img className={styles._img} src={images.mobJpeg} alt="about" />
+            <img
+              className={styles._img}
+              src={images.mobJpeg}
+              alt="about"
+              width="680"
+            />
           </picture>
         </div>
       </Container>

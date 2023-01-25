@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 ._img {
   display: block;
   max-width: 100%;
@@ -5,12 +9,14 @@
   fill: collection-color(social--link--color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 ._flex-center {
   display: flex;
   justify-content: center;
   text-align: center;
   align-items: center;
 }
+
 ._backdrop {
   position: fixed;
   top: 0;
@@ -21,6 +27,7 @@
   background: rgba(0, 0, 0, 0.2);
   transition: opacity 0.2s;
 }
+
 ._is-hidden {
   opacity: 0;
   pointer-events: none;
@@ -40,6 +47,7 @@
   border: 0;
   clip: rect(0 0 0 0);
 }
+
 .section {
   padding: 94px 0;
 }
