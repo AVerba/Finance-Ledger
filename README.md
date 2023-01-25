@@ -1,6 +1,6 @@
 # Finance-Ledger App
 
-[preview](./assets/1.jpg)
+![preview](./assets/1.jpg)
 
 ## Available Scripts
 
