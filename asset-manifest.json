@@ -1,24 +1,28 @@
 {
   "files": {
-    "main.css": "/Finance-Ledger/static/css/main.22c6f792.css",
-    "main.js": "/Finance-Ledger/static/js/main.3ecca0bb.js",
+    "main.css": "/Finance-Ledger/static/css/main.788316f3.css",
+    "main.js": "/Finance-Ledger/static/js/main.1ceea861.js",
     "static/media/bg@2x.jpg": "/Finance-Ledger/static/media/bg@2x.040262d83a9e59a85798.jpg",
     "static/media/bg.jpg": "/Finance-Ledger/static/media/bg.a1b0458355456b01b782.jpg",
     "static/media/people@2x.jpg": "/Finance-Ledger/static/media/people@2x.27604f976a268738cf61.jpg",
     "static/media/blog@2x.jpg": "/Finance-Ledger/static/media/blog@2x.7dbb1a029a7d1e7533e4.jpg",
+    "static/media/contact@2x.jpg": "/Finance-Ledger/static/media/contact@2x.c7eb6cf8ab5286e7753c.jpg",
     "static/media/blog@2x.webp": "/Finance-Ledger/static/media/blog@2x.9051598e28e7b5b1bdc3.webp",
     "static/media/people.jpg": "/Finance-Ledger/static/media/people.5f4291b375658989db74.jpg",
     "static/media/blog.webp": "/Finance-Ledger/static/media/blog.580b99716bdd21fcebf5.webp",
+    "static/media/contact.jpg": "/Finance-Ledger/static/media/contact.6adb58bd58b66ef45c0b.jpg",
     "static/media/blog.jpg": "/Finance-Ledger/static/media/blog.7649f8c7ea10be375517.jpg",
     "static/media/people@2x.webp": "/Finance-Ledger/static/media/people@2x.b4c9dcab493d579cd5d2.webp",
     "static/media/people.webp": "/Finance-Ledger/static/media/people.860723e3815a5dc31e59.webp",
+    "static/media/contact@2x.webp": "/Finance-Ledger/static/media/contact@2x.2bfcdd81a6a1abddc7f6.webp",
+    "static/media/contact.webp": "/Finance-Ledger/static/media/contact.0de7b1d25677ccae54ab.webp",
     "static/media/icons.svg": "/Finance-Ledger/static/media/icons.fcf9b1b551ccf9c259dc398558dc2948.svg",
     "index.html": "/Finance-Ledger/index.html",
-    "main.22c6f792.css.map": "/Finance-Ledger/static/css/main.22c6f792.css.map",
-    "main.3ecca0bb.js.map": "/Finance-Ledger/static/js/main.3ecca0bb.js.map"
+    "main.788316f3.css.map": "/Finance-Ledger/static/css/main.788316f3.css.map",
+    "main.1ceea861.js.map": "/Finance-Ledger/static/js/main.1ceea861.js.map"
   },
   "entrypoints": [
-    "static/css/main.22c6f792.css",
-    "static/js/main.3ecca0bb.js"
+    "static/css/main.788316f3.css",
+    "static/js/main.1ceea861.js"
   ]
 }
