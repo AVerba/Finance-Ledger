@@ -1,7 +1,7 @@
 import styles from './Team.module.scss';
 import { Container } from '../../components/Container';
 import { SubTitle } from '../../components/UI/SubTitle';
-import icon from 'images/icons.svg';
+// import icon from 'images/icons.svg';
 import { images } from './images';
 
 export const Team = () => {
