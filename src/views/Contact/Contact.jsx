@@ -2,6 +2,7 @@ import styles from './Contact.module.scss';
 import { images } from './images';
 import { Container } from '../../components/Container';
 import { SubTitle } from '../../components/UI/SubTitle';
+import { CallBack } from '../../components/Forms/CallBack';
 
 export const Contact = () => {
   return (
@@ -44,10 +45,11 @@ export const Contact = () => {
             />
           </picture>
         </div>
-        <div className={styles.contact__form}>
+        <div className={styles.contact__content}>
           <SubTitle className={styles.contact__title}>
             Request Callback
           </SubTitle>
+          <CallBack className={styles.contact__form} />
         </div>
       </Container>
     </section>

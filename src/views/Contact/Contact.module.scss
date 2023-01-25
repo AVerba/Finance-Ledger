@@ -17,7 +17,7 @@
 
   }
 
-  &__form {
+  &__content {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -40,5 +40,8 @@
       font-size: 40px;
       line-height: calc(54 / 40);
     }
+  }
+  &__form {
+    padding-top: 31px;
   }
 }
