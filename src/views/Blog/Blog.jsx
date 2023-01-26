@@ -6,7 +6,7 @@ import { CommonButton } from '../../components/UI/Button';
 
 export const Blog = () => {
   return (
-    <section className={styles.blog}>
+    <section className={styles.blog} id="blog">
       <Container className={styles.blog__container}>
         <div className={styles.blog__content}>
           <p>April 16 2020</p>

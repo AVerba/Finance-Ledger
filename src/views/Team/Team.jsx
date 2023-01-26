@@ -7,7 +7,7 @@ import { images } from './images';
 export const Team = () => {
   const { firstImages, secondImages, thirdImages } = images;
   return (
-    <section className={styles.team}>
+    <section className={styles.team} id="team">
       <Container className={styles.team__container}>
         <p className={styles.team__preTitle}>Who we are</p>
         <SubTitle className={styles.team__title}>

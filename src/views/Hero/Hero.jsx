@@ -6,7 +6,7 @@ import { CommonButton } from '../../components/UI/Button';
 
 export const Hero = () => {
   return (
-    <section className={styles.hero}>
+    <section className={styles.hero} id="home">
       <Container className={styles.hero__container}>
         <h1 className={styles.hero__mainTitle}>The Sky Is The Limit</h1>
         <SubTitle className={styles.hero__subTitle}>

@@ -4,7 +4,7 @@ import { SubTitle } from '../../components/UI/SubTitle';
 
 export const Cases = () => {
   return (
-    <section className={styles.cases}>
+    <section className={styles.cases} id="cases">
       <Container className={styles.cases__container}>
         <p className={styles.cases__preTitle}>This is what we do</p>
         <SubTitle className={styles.cases__title}>Business Cases</SubTitle>

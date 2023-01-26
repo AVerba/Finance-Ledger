@@ -1,11 +1,13 @@
 @import '../../sass/main.scss';
 
 .header {
-  position: fixed;
-  width: 100%;
+  position: absolute;
   top: 0;
   left: 0;
+  width: 100%;
+  padding: 16px 32px;
   z-index: 1;
+
 
   &__container {
     display: block;
@@ -20,5 +22,16 @@
       padding: 0 28px;
     }
   }
+}
+.fixedHeader{
+  position: fixed;
+  margin: 0 auto;
+  z-index: 20;
+  width: 100%;
+  padding: 16px 32px;
+
+  background-color: rgba(0, 0, 0, 0.8);
+  transition: background-color ease-in-out linear;
+
 }
 

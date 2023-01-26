@@ -6,7 +6,7 @@ import { CallBack } from '../../components/Forms/CallBack';
 
 export const Contact = () => {
   return (
-    <section className={styles.contact}>
+    <section className={styles.contact} id="contact">
       <Container className={styles.contact__container}>
         <div className={styles.contact__img}>
           <picture>
