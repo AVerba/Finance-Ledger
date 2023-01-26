@@ -1,7 +1,7 @@
 import styles from './Team.module.scss';
 import { Container } from '../../components/Container';
 import { SubTitle } from '../../components/UI/SubTitle';
-// import icon from 'images/icons.svg';
+import icon from 'images/icons.svg';
 import { images } from './images';
 
 export const Team = () => {
@@ -56,69 +56,69 @@ export const Team = () => {
                   width="680"
                 />
               </picture>
-              {/*<div className={styles.itemCardOverlay}>*/}
-              {/*  <ul className={styles.social__list}>*/}
-              {/*    <li className={styles.social__item}>*/}
-              {/*      <a*/}
-              {/*        href="https://www.facebook.com/"*/}
-              {/*        target="_blank"*/}
-              {/*        rel="noopener noreferrer"*/}
-              {/*      >*/}
-              {/*        <svg*/}
-              {/*          className={styles.social__item_icon}*/}
-              {/*          width={35}*/}
-              {/*          height={35}*/}
-              {/*        >*/}
-              {/*          <use href={`${icon}#facebook`}></use>*/}
-              {/*        </svg>*/}
-              {/*      </a>*/}
-              {/*    </li>*/}
-              {/*    <li className={styles.social__item}>*/}
-              {/*      <a*/}
-              {/*        href="https://twitter.com/"*/}
-              {/*        target="_blank"*/}
-              {/*        rel="noopener noreferrer"*/}
-              {/*      >*/}
-              {/*        <svg*/}
-              {/*          className={styles.social__item_icon}*/}
-              {/*          width={35}*/}
-              {/*          height={33}*/}
-              {/*        >*/}
-              {/*          <use href={`${icon}#twitter`}></use>*/}
-              {/*        </svg>*/}
-              {/*      </a>*/}
-              {/*    </li>*/}
-              {/*    <li className={styles.social__item}>*/}
-              {/*      <a*/}
-              {/*        href="https://www.youtube.com/"*/}
-              {/*        target="_blank"*/}
-              {/*        rel="noopener noreferrer"*/}
-              {/*      >*/}
-              {/*        <svg*/}
-              {/*          className={styles.social__item_icon}*/}
-              {/*          width={40}*/}
-              {/*          height={31}*/}
-              {/*        >*/}
-              {/*          <use href={`${icon}#youtube`}></use>*/}
-              {/*        </svg>*/}
-              {/*      </a>*/}
-              {/*    </li>*/}
-              {/*    <li className={styles.social__item}>*/}
-              {/*      <a*/}
-              {/*        href="https://www.linkedin.com/"*/}
-              {/*        target="_blank"*/}
-              {/*        rel="noopener noreferrer"*/}
-              {/*      >*/}
-              {/*        <svg*/}
-              {/*          className={styles.social__item_icon}*/}
-              {/*          style={{ width: "35px", height: "39px" }}*/}
-              {/*        >*/}
-              {/*          <use href={`${icon}#linkedin`}></use>*/}
-              {/*        </svg>*/}
-              {/*      </a>*/}
-              {/*    </li>*/}
-              {/*  </ul>*/}
-              {/*</div>*/}
+              <div className={styles.itemCardOverlay}>
+                <ul className={styles.social__list}>
+                  <li className={styles.social__item}>
+                    <a
+                      href="https://www.facebook.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <svg
+                        className={styles.social__item_icon}
+                        width={35}
+                        height={35}
+                      >
+                        <use href={`${icon}#facebook`}></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li className={styles.social__item}>
+                    <a
+                      href="https://twitter.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <svg
+                        className={styles.social__item_icon}
+                        width={35}
+                        height={33}
+                      >
+                        <use href={`${icon}#twitter`}></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li className={styles.social__item}>
+                    <a
+                      href="https://www.youtube.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <svg
+                        className={styles.social__item_icon}
+                        width={40}
+                        height={31}
+                      >
+                        <use href={`${icon}#youtube`}></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li className={styles.social__item}>
+                    <a
+                      href="https://www.linkedin.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <svg
+                        className={styles.social__item_icon}
+                        style={{ width: '35px', height: '39px' }}
+                      >
+                        <use href={`${icon}#linkedin`}></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
             <div className={styles.itemCard__content}>
               <h4 className={styles.itemCard__name}>John Doe</h4>
@@ -162,69 +162,69 @@ export const Team = () => {
                   width="680"
                 />
               </picture>
-              {/*<div className={styles.itemCardOverlay}>*/}
-              {/*  <ul className={styles.social__list}>*/}
-              {/*    <li className={styles.social__item}>*/}
-              {/*      <a*/}
-              {/*        href="https://www.facebook.com/"*/}
-              {/*        target="_blank"*/}
-              {/*        rel="noopener noreferrer"*/}
-              {/*      >*/}
-              {/*        <svg*/}
-              {/*          className={styles.social__item_icon}*/}
-              {/*          width={35}*/}
-              {/*          height={35}*/}
-              {/*        >*/}
-              {/*          <use href={`${icon}#facebook`}></use>*/}
-              {/*        </svg>*/}
-              {/*      </a>*/}
-              {/*    </li>*/}
-              {/*    <li className={styles.social__item}>*/}
-              {/*      <a*/}
-              {/*        href="https://twitter.com/"*/}
-              {/*        target="_blank"*/}
-              {/*        rel="noopener noreferrer"*/}
-              {/*      >*/}
-              {/*        <svg*/}
-              {/*          className={styles.social__item_icon}*/}
-              {/*          width={35}*/}
-              {/*          height={33}*/}
-              {/*        >*/}
-              {/*          <use href={`${icon}#twitter`}></use>*/}
-              {/*        </svg>*/}
-              {/*      </a>*/}
-              {/*    </li>*/}
-              {/*    <li className={styles.social__item}>*/}
-              {/*      <a*/}
-              {/*        href="https://www.youtube.com/"*/}
-              {/*        target="_blank"*/}
-              {/*        rel="noopener noreferrer"*/}
-              {/*      >*/}
-              {/*        <svg*/}
-              {/*          className={styles.social__item_icon}*/}
-              {/*          width={40}*/}
-              {/*          height={31}*/}
-              {/*        >*/}
-              {/*          <use href={`${icon}#youtube`}></use>*/}
-              {/*        </svg>*/}
-              {/*      </a>*/}
-              {/*    </li>*/}
-              {/*    <li className={styles.social__item}>*/}
-              {/*      <a*/}
-              {/*        href="https://www.linkedin.com/"*/}
-              {/*        target="_blank"*/}
-              {/*        rel="noopener noreferrer"*/}
-              {/*      >*/}
-              {/*        <svg*/}
-              {/*          className={styles.social__item_icon}*/}
-              {/*          style={{ width: "35px", height: "39px" }}*/}
-              {/*        >*/}
-              {/*          <use href={`${icon}#linkedin`}></use>*/}
-              {/*        </svg>*/}
-              {/*      </a>*/}
-              {/*    </li>*/}
-              {/*  </ul>*/}
-              {/*</div>*/}
+              <div className={styles.itemCardOverlay}>
+                <ul className={styles.social__list}>
+                  <li className={styles.social__item}>
+                    <a
+                      href="https://www.facebook.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <svg
+                        className={styles.social__item_icon}
+                        width={35}
+                        height={35}
+                      >
+                        <use href={`${icon}#facebook`}></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li className={styles.social__item}>
+                    <a
+                      href="https://twitter.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <svg
+                        className={styles.social__item_icon}
+                        width={35}
+                        height={33}
+                      >
+                        <use href={`${icon}#twitter`}></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li className={styles.social__item}>
+                    <a
+                      href="https://www.youtube.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <svg
+                        className={styles.social__item_icon}
+                        width={40}
+                        height={31}
+                      >
+                        <use href={`${icon}#youtube`}></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li className={styles.social__item}>
+                    <a
+                      href="https://www.linkedin.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <svg
+                        className={styles.social__item_icon}
+                        style={{ width: '35px', height: '39px' }}
+                      >
+                        <use href={`${icon}#linkedin`}></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
             <div className={styles.itemCard__content}>
               <h4 className={styles.itemCard__name}>Jane Doe</h4>
@@ -268,69 +268,69 @@ export const Team = () => {
                   width="680"
                 />
               </picture>
-              {/*<div className={styles.itemCardOverlay}>*/}
-              {/*  <ul className={styles.social__list}>*/}
-              {/*    <li className={styles.social__item}>*/}
-              {/*      <a*/}
-              {/*        href="https://www.facebook.com/"*/}
-              {/*        target="_blank"*/}
-              {/*        rel="noopener noreferrer"*/}
-              {/*      >*/}
-              {/*        <svg*/}
-              {/*          className={styles.social__item_icon}*/}
-              {/*          width={35}*/}
-              {/*          height={35}*/}
-              {/*        >*/}
-              {/*          <use href={`${icon}#facebook`}></use>*/}
-              {/*        </svg>*/}
-              {/*      </a>*/}
-              {/*    </li>*/}
-              {/*    <li className={styles.social__item}>*/}
-              {/*      <a*/}
-              {/*        href="https://twitter.com/"*/}
-              {/*        target="_blank"*/}
-              {/*        rel="noopener noreferrer"*/}
-              {/*      >*/}
-              {/*        <svg*/}
-              {/*          className={styles.social__item_icon}*/}
-              {/*          width={35}*/}
-              {/*          height={33}*/}
-              {/*        >*/}
-              {/*          <use href={`${icon}#twitter`}></use>*/}
-              {/*        </svg>*/}
-              {/*      </a>*/}
-              {/*    </li>*/}
-              {/*    <li className={styles.social__item}>*/}
-              {/*      <a*/}
-              {/*        href="https://www.youtube.com/"*/}
-              {/*        target="_blank"*/}
-              {/*        rel="noopener noreferrer"*/}
-              {/*      >*/}
-              {/*        <svg*/}
-              {/*          className={styles.social__item_icon}*/}
-              {/*          width={40}*/}
-              {/*          height={31}*/}
-              {/*        >*/}
-              {/*          <use href={`${icon}#youtube`}></use>*/}
-              {/*        </svg>*/}
-              {/*      </a>*/}
-              {/*    </li>*/}
-              {/*    <li className={styles.social__item}>*/}
-              {/*      <a*/}
-              {/*        href="https://www.linkedin.com/"*/}
-              {/*        target="_blank"*/}
-              {/*        rel="noopener noreferrer"*/}
-              {/*      >*/}
-              {/*        <svg*/}
-              {/*          className={styles.social__item_icon}*/}
-              {/*          style={{ width: "35px", height: "39px" }}*/}
-              {/*        >*/}
-              {/*          <use href={`${icon}#linkedin`}></use>*/}
-              {/*        </svg>*/}
-              {/*      </a>*/}
-              {/*    </li>*/}
-              {/*  </ul>*/}
-              {/*</div>*/}
+              <div className={styles.itemCardOverlay}>
+                <ul className={styles.social__list}>
+                  <li className={styles.social__item}>
+                    <a
+                      href="https://www.facebook.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <svg
+                        className={styles.social__item_icon}
+                        width={35}
+                        height={35}
+                      >
+                        <use href={`${icon}#facebook`}></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li className={styles.social__item}>
+                    <a
+                      href="https://twitter.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <svg
+                        className={styles.social__item_icon}
+                        width={35}
+                        height={33}
+                      >
+                        <use href={`${icon}#twitter`}></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li className={styles.social__item}>
+                    <a
+                      href="https://www.youtube.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <svg
+                        className={styles.social__item_icon}
+                        width={40}
+                        height={31}
+                      >
+                        <use href={`${icon}#youtube`}></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li className={styles.social__item}>
+                    <a
+                      href="https://www.linkedin.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <svg
+                        className={styles.social__item_icon}
+                        style={{ width: '35px', height: '39px' }}
+                      >
+                        <use href={`${icon}#linkedin`}></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
             <div className={styles.itemCard__content}>
               <h4 className={styles.itemCard__name}>Steve Smith</h4>
