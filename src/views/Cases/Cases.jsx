@@ -3,12 +3,40 @@ import { Container } from '../../components/Container';
 import { SubTitle } from '../../components/UI/SubTitle';
 import { images } from './images';
 import shortid from 'shortid';
+import { useState } from 'react';
+import Lightbox from 'react-image-lightbox';
+import 'react-image-lightbox/style.css';
 
 export const Cases = () => {
   const { pictures: pics } = images;
-  console.log(pics);
+  let openImgNumber = 0;
+
+  const [photoIndex, setPhotoIndex] = useState(0);
+  const [isOpen, setIsOpen] = useState(false);
+
+  const setState = id => {
+    setPhotoIndex(id);
+    setIsOpen(true);
+  };
+
   return (
     <section className={styles.cases} id="cases">
+      {isOpen && (
+        <Lightbox
+          mainSrc={pics[photoIndex].deskJpeg}
+          nextSrc={pics[(photoIndex + 1) % pics.length].deskJpeg}
+          prevSrc={pics[(photoIndex + pics.length - 1) % pics.length].deskJpeg}
+          onCloseRequest={() => setIsOpen(false)}
+          onMovePrevRequest={() =>
+            setPhotoIndex((photoIndex + pics.length - 1) % pics.length)
+          }
+          onMoveNextRequest={() =>
+            setPhotoIndex(((photoIndex + 1) % pics.length) % pics.length)
+          }
+          animationDisabled={true}
+        />
+      )}
+
       <Container className={styles.cases__container}>
         <p className={styles.cases__preTitle}>This is what we do</p>
         <SubTitle className={styles.cases__title}>Business Cases</SubTitle>
@@ -33,7 +61,11 @@ export const Cases = () => {
               deskJpeg,
               deskJpeg2x,
             }) => (
-              <li className={styles.cases__item} key={shortid.generate()}>
+              <li
+                className={styles.cases__item}
+                id={openImgNumber++}
+                key={shortid.generate()}
+              >
                 <picture>
                   <source
                     type="image/webp"
@@ -64,6 +96,9 @@ export const Cases = () => {
                   />
                   <img
                     className={styles._img}
+                    onClick={event =>
+                      setState(event.currentTarget.parentNode.parentNode.id)
+                    }
                     src={mobJpeg}
                     alt={shortid.generate()}
                     width="680"
