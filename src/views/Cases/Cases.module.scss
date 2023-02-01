@@ -33,7 +33,7 @@
   &__title {
     font-size: 32px;
     line-height: calc(44 / 32);
-    padding-top: 16px;
+    margin-top: 16px;
     padding-left: 33px;
     padding-right: 33px;
     @include for-size(tablet) {
@@ -49,7 +49,7 @@
   &__text {
     font-size: 16px;
     line-height: calc(22 / 16);
-    padding: 24px 39px 0 39px;
+    margin: 24px 39px 0 39px;
     @include for-size(tablet) {
       font-size: 18px;
       line-height: calc(25 / 18);

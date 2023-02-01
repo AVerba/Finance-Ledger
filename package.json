@@ -35,8 +35,7 @@
     "lint:js": "eslint src/**/*.{js,jsx}",
     "prepare": "husky install",
     "lint-staged": "lint-staged",
-    "predeploy": "npm run build",
-    "deploy": "netlify deploy -p"
+    "predeploy": "npm run build"
   },
   "eslintConfig": {
     "extends": [
