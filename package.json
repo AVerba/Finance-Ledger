@@ -1,5 +1,5 @@
 {
-  "name": "Land",
+  "name": "fin-ledger",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://AVerba.github.io/Finance-Ledger/",
@@ -28,14 +28,15 @@
     "yup": "^0.32.11"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "set PORT=3001 && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint:js": "eslint src/**/*.{js,jsx}",
     "prepare": "husky install",
     "lint-staged": "lint-staged",
-    "predeploy": "npm run build"
+    "predeploy": "npm run build",
+    "deploy": "netlify deploy -p"
   },
   "eslintConfig": {
     "extends": [
@@ -59,6 +60,7 @@
     "eslint": "^8.14.0",
     "husky": "^7.0.4",
     "lint-staged": "^12.4.1",
+    "netlify-cli": "^12.10.0",
     "prettier": "^2.6.2"
   },
   "husky": {
